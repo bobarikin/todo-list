@@ -1,0 +1,12 @@
+.input {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 9px 31px 8px 14px;
+  min-width: 356px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}

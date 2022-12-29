@@ -1,0 +1,23 @@
+.btn {
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.black {
+  background-color: #272829;
+}
+
+.gray {
+  background-color: #6c757d;
+}
+
+.red {
+  background-color: #dc3545;
+}
