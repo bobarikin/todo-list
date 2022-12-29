@@ -1,11 +1,11 @@
-import style from './button.module.css'
+import style from './Button.module.css'
 import classNames from 'classnames'
 
-export function Button({ color, children, addButtonHandler }) {
+export function Button({ color, children, onClick}) {
   return (
     <button
       className={classNames(style.btn, style[color])}
-      onClick={addButtonHandler}
+      onClick={onClick}
     >
       {children}
     </button>
