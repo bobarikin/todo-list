@@ -1,0 +1,7 @@
+.TodoFooter {
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    background: #F5F5F5;
+    border-radius: 0 0 16px 16px;
+}

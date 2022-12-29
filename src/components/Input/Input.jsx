@@ -1,8 +1,8 @@
-import { Button } from '../button/Button'
-import style from './input.module.css'
+import { Button } from '../Button/Button'
+import style from './Input.module.css'
 
 export function Input({ addButtonHandler, inputValue, setInputValue }) {
-  
+
   return (
     <div className={style.div}>
       <input
@@ -11,7 +11,7 @@ export function Input({ addButtonHandler, inputValue, setInputValue }) {
         value={inputValue}
         onChange={(event) => setInputValue(event.target.value)}
       />
-      <Button color='black' addButtonHandler={addButtonHandler}>Добавить</Button>
+      <Button color='black' onClick={addButtonHandler}>Добавить</Button>
     </div>
   )
 }
